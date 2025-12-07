@@ -1,0 +1,103 @@
+.connect-space {
+    display: inline;
+    margin: 0px 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://res.cloudinary.com/larq/image/fetch/q_auto,f_auto/https://res.cloudinary.com/larq/images/f_auto,q_auto/v1708953591/Mobile_41266bc22/Mobile_41266bc22.jpg?_i=AA);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg-navbar {
+    background-color: #004b06a1;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: #1a1a1aa9;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    background-color: #1a1a1aa9;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.title-text {
+    font-family: 'Lora', serif; 
+    color: #F1E4C3; 
+}
+
+p, li, a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.num-counter input {
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    background: #ffffffc0;
+}
+
+#push {
+    border-radius: 49px;
+    border: none;
+    text-align: center;
+    background: #11ff00c0;
+    margin-top: 10px;
+    color: aliceblue;
+    padding: 0 10 0 10;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#push:hover {
+    background: #68ff5dc0;
+    color: aliceblue;
+}
+
+.lister {
+    text-align: start;
+}
+
+.flexer-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.min-emission {
+    color: rgb(0, 208, 45);
+}
+
+.alert {
+    color: red;
+}
